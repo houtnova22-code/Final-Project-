@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Cart() {
+export default function Search() {
   return (
     <div>
-      Cart
+      
     </div>
   )
 }

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
+import Home from '../pages/Home';
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   
   const navLinks = [
-    { href: "/", label: "Home" },
+    {  href: "/",label : "Home" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
   ];
