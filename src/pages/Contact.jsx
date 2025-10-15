@@ -45,7 +45,7 @@ export default function ContactPage() {
               <iframe
                 title="Cloverleaf Map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21505.940494327413!2d104.90306033952223!3d11.578304387645755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1skm!2skh!4v1760521425321!5m2!1skm!2skh"
-                className="w-full h-30 rounded-lg border-0"
+                className="w-full h-35 rounded-lg border-0"
                 allowFullScreen=""
                 loading="lazy"
               ></iframe>
