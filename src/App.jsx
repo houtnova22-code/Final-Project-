@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Profile from "./pages/Profile";
 import Cart from "./pages/Cart";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -20,6 +21,8 @@ export default function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
+      <Footer />
+
     </div>
   );
 }
