@@ -5,7 +5,7 @@ export default function Hero() {
     <div 
       className="relative h-screen bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'url("public/bg.webp")',
+        backgroundImage: 'url("public/bg2.webp")',
       }}
     >
       {/* Overlay for better text readability */}
