@@ -14,7 +14,7 @@ export default function Footer() {
                   alt="Logo" 
                   className="h-12 w-12"
                 />
-            Cloverleaf
+             <h3 className="ml-2 font-medium"> Cloverleaf</h3>
           </h2>
           <p className="mt-3 text-sm">
             Your trusted source for gentle and effective skincare. <br />
@@ -57,17 +57,7 @@ export default function Footer() {
           <div className="mt-6">
             <p className="text-sm mb-2">Subscribe for updates</p>
             <form className="flex">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full px-3 py-2 rounded-l-md border border-gray-300 focus:outline-none"
-              />
-              <button
-                type="submit"
-                className="bg-green-600 text-white px-4 py-2 rounded-r-md hover:bg-green-700"
-              >
-                Join
-              </button>
+              
             </form>
           </div>
 
