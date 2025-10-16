@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Home from "../pages/Home";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
   const navLinks = [
     { href: "/", label: "Home" },
+    { href: "/shop", label: "Shop" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
   ];
@@ -28,7 +31,7 @@ export default function Nav() {
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center">
                 <img src="logo_shop.png" alt="Logo" className="h-12 w-12" />
-                <span className="ml-2 text-black text-xl font-bold">
+                <span className="ml-2 text-black text-xl font-medium">
                   Cloverleaf
                 </span>
               </Link>
@@ -41,10 +44,10 @@ export default function Nav() {
                   <Link
                     key={link.href}
                     to={link.href}
-                    className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
+                    className={`px-3 py-2 rounded-3xl text-sm font-medium transition-colors duration-200 ${
                       isActiveLink(link.href)
-                        ? "text-gray-800 bg-gray-300"
-                        : "text-gray-800 hover:text-gray-900 hover:bg-gray-300"
+                        ? "text-gray-800 bg-gray-500/10"
+                        : "text-gray-800 hover:text-gray-900 hover:bg-gray-200"
                     }`}
                   >
                     {link.label}

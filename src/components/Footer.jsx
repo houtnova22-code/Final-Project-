@@ -1,4 +1,5 @@
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+import Home from "../pages/Home";
 
 export default function Footer() {
   return (
