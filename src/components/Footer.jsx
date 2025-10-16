@@ -14,7 +14,7 @@ export default function Footer() {
                   alt="Logo" 
                   className="h-12 w-12"
                 />
-            Cloverleaf
+              Cloverleaf
           </h2>
           <p className="mt-3 text-sm">
             Your trusted source for gentle and effective skincare. <br />
