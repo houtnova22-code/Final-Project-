@@ -25,7 +25,7 @@ export default function Hero() {
         
         {/* Category Filters */}
         <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-          {['All Products', ,'Cleanser','Toner','Serum', 'Sunscreen','Moisturizer','Face mask/Sheet mask','Eye cleam','Facial oil','Blush','Highlighter','Lip balm/Lip gloss'].map((category) => (
+          {['All Products', ,'Cleanser','Toner','Serum', 'Sunscreen','Moisturizer','Face mask/Sheet mask','Eye cream','Blush','Highlighter','Lip balm/Lip gloss'].map((category) => (
             <button
               key={category}
               className="px-4 py-2 bg-white bg-opacity-20 backdrop-blur-sm rounded-full text-white hover:bg-opacity-30 transition-all duration-300 border border-white border-opacity-30"

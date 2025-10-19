@@ -38,6 +38,9 @@ import Cart from "./pages/Cart";
 import Profile from "./pages/Profile";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import Shop from "./pages/Shop";
+import React from "react";
+
 export default function App() {
   return (
     <div className="App">
@@ -49,6 +52,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/shop" element={<Shop />} />
       </Routes>
       <Footer />
     </div>

@@ -1,0 +1,55 @@
+.custom-search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  border-radius: 9999px;
+  padding: 6px 10px;
+  width: 420px;
+  border: none;
+}
+
+.custom-search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  padding: 8px 12px;
+  color: #333;
+}
+
+.custom-search-btn {
+  background-color: #ea4c89; /* Dribbble pink */
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.custom-search-btn:hover {
+  background-color: #d93d7b;
+}
+
+.custom-search-icon {
+  width: 18px;
+  height: 18px;
+  stroke: white;
+  display: block;
+}
+.custom-search-bar {
+  width: 250px;
+  padding: 4px 8px;
+}
+.custom-search-btn {
+  width: 30px;
+  height: 30px;
+}
+.custom-search-icon {
+  width: 16px;
+  height: 16px;
+}
